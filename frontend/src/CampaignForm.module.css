@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.campaign-form {
+  font-family: "Playfair Display", serif;
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to top left, #9bbbac, #9bbbad);
+}
+
+.campaign-form form {
+  width: 400px;
+  padding: 20px 40px;
+  background: linear-gradient(to top left, #ffffff33, #ffffff33);
+  backdrop-filter: blur(100px);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #252a34;
+  z-index: 2;
+}
+
+.campaign-form h2 {
+  font-size: 2.5rem;
+  color: #252a34;
+  text-align: center;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #252a34;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+.form-group input[type="file"] {
+  padding: 0;
+}
+
+button {
+  /* width: 100%; */
+  padding: 10px;
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: var(--accent-color-dark);
+}
+/* .button2{
+  display: flex;
+  gap:8px;
+}
+#button3 {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 0.2s ease-out;
+  text-align: center;
+}
+#button3:hover {
+  background-color: var(--accent-color-dark);
+}
+
+#button4 {
+  border: 2px solid var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--secondary-text-color) !important;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+  background-color: none;
+}
+#button4:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+.mbox{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+.mbox h4{
+  font-size: 1.2rem;
+}
+
+.cc1{
+  margin-left: 70px;
+  width:200px;
+} */

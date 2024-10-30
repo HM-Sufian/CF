@@ -1,0 +1,80 @@
+/* CampaignList.css */
+
+.campaign-list-container {
+  padding: 20px;
+  background: #ccc;
+  /* background: linear-gradient(135deg, rgba(33, 157, 128, 0.55) 50%, rgba(37, 42, 52, 0.7) 50%); */
+  height: 100vh;
+}
+
+/* Tu Nav ka cheeza banay baat */
+.nav-campaign-list{
+  background: linear-gradient(135deg, rgb(7, 190, 114) 50%, rgba(37, 42, 52, 0.7) 50%);
+}
+.nav-campaign-list>h2{
+  margin-left: 40%;
+  color:var(--secondary-text-color);
+  font-size: 48px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+.campaign-list-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+#pdfFile {
+  color: #585252;
+}
+.campaign-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.campaign-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.campaign-card:hover {
+  transform: translateY(-5px);
+}
+
+.campaign-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #fff;
+}
+
+.campaign-details {
+  padding: 20px;
+}
+
+.campaign-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.campaign-description {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.campaign-goal {
+  font-weight: bold;
+  color: var(--accent-color-dark);
+}
+
+@media (max-width: 768px) {
+  .campaign-list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}

@@ -1,0 +1,123 @@
+/* DonationPage.css */
+
+.donation-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  .donation-page-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .campaign-details {
+    margin-bottom: 20px;
+  }
+  
+  .donation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+  
+  .donation-form label {
+    margin-bottom: 10px;
+  }
+  
+  .donation-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  
+  .donate-button {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .donate-button:hover {
+    background-color: var(--accent-color-dark);
+  }
+  
+  .donation-history {
+    margin-top: 20px;
+  }
+  
+  .transaction-details {
+    margin-top: 20px;
+  }
+  
+  .transaction-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transaction-details th,
+  .transaction-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .transaction-details th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .transaction-details tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .transaction-details tr:hover {
+    background-color: #ddd;
+  }
+  
+  .transaction-details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  .modal{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  }
+
+  /* .imgdetail{
+    max-width:600px;
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+  } */
+
+  /* campaign-details */
+  .cd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+  }
+  /* campaign details and donate button */
+  .containcd{
+    display: flex;
+    gap:100px;
+  }

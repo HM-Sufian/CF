@@ -1,0 +1,52 @@
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+    margin-block: 50px;
+  }
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .carousel-cards {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1180px;
+    justify-content: space-around;
+    border: 5px solid #ccc;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  
+  .arrow {
+    background: #397d70;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .arrow:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }  

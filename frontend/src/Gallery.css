@@ -1,0 +1,50 @@
+.gallery-grid{
+    display: grid;
+    grid-template-areas: "b1 b1 b3 b4"
+                         "b1 b1 b5 b4"
+                         "b1 b1 b5 b6"
+                         "b2 b2 b2 b6"
+                         "b2 b2 b2 b6";
+    grid-auto-rows: 100px;
+}
+.box{
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.box1{
+    background-image: url('./../public/rectangle-2973@2x.png');
+    grid-area:b1;
+}
+/* image 77 tha so */
+.box2{
+    background-image: url('./../public/g22.jpg');
+    grid-area:b2;
+}
+.box3{
+    background-image: url('./../public/rectangle-2974@2x.png');
+    grid-area:b3;
+}
+.box4{
+    background-image: url('./../public/rectangle-2978@2x.png');
+    grid-area:b4;
+}
+.box5{
+    background-image: url('./../public/rectangle-2976@2x.png');
+    grid-area:b5;
+}
+.box6{
+    background-image: url('./../public/rectangle-2975@2x.png');
+    grid-area:b6;
+}
+
+.box:hover {
+    background-color: #999;
+    background-position: center;
+    box-shadow: 0 0 4px white;
+}
